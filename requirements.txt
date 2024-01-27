@@ -7,7 +7,6 @@ intervaltree
 matplotlib
 natsort
 networkx
-numpy
 pandas
 pillow
 pybigwig
