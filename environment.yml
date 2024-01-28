@@ -1,0 +1,37 @@
+channels:
+  - defaults
+  - conda-forge
+  - bioconda
+  - nvidia
+dependencies:
+  - gcc
+  - python==3.10
+  - astropy
+  - cudatoolkit=11
+  - cython
+  - h5py
+  - intervaltree
+  - joblib
+  - matplotlib
+  - natsort
+  - networkx
+  - numpy
+  - packaging
+  - pandas
+  - pillow
+  - pybedtools
+  - pybigwig
+  - pysam
+  - scikit-learn
+  - scipy
+  - seaborn
+  - statsmodels
+  - tabulate
+  - pip:
+    - cooler
+    - cooltools
+    - tensorflow[and-cuda]==2.14
+    - plotly
+    - Flask
+    - Flask-Cors
+    - numpy==1.24.1
